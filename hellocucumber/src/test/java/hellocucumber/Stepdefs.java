@@ -7,10 +7,10 @@ import static org.junit.Assert.*;
 
 class IsAlive {
     static String isAlive(String today) {
-	if (today.equals("Princesse")) {
-	    return "True";
+	if (today.equals("apple")) {
+	    return "No";
 	}
-    return "False";
+    return "Yes";
     }
 }
 
@@ -18,7 +18,7 @@ public class Stepdefs {
     private String today;
     private String actualAnswer;
 
-    @Given("^blanche neige is a \"([^\"]*)\"$")
+    @Given("^blanche neige ate \"([^\"]*)\"$")
     public void today_is(String today) {
         this.today = today;
     }
