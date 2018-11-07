@@ -19,7 +19,7 @@ public class Princesse
     private boolean enVie = true;
     private Prince marieeA;
     private boolean estMariee = false;
-    private List<Enfant> enfants;
+     List<Enfant> enfants;
     
     /**
      * Constructeur d'objets de classe Princesse
