@@ -1,5 +1,5 @@
-Feature: Is Blanche Neige a Princess?
-  Everybody wants to know when if blanche neige is a princess
+Feature: Is blanche neige alive after eating a toxic apple ?
+  Everybody wants to know if blanche neige dies after eating a toxic apple
 
   Scenario Outline: Test about Blanche Neige
     Given blanche neige ate "<fruit>"
@@ -7,9 +7,9 @@ Feature: Is Blanche Neige a Princess?
     Then I should be told "<answer>"
 
   Scenario Outline: Test about Blanche Neige
-    Given blanche neige ate "banana"
+    Given blanche neige ate "apple"
     When I ask whether she is alive 
-    Then I should be told "Yes"
+    Then I should be told "No"
 
 Examples:
     | fruit | answer |
